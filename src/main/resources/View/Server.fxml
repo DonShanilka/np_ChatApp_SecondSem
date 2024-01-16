@@ -13,15 +13,15 @@
    <children>
       <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#078314" height="45.0" layoutX="59.0" layoutY="-1.0" stroke="#078314" strokeType="INSIDE" width="325.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#078314" height="61.0" layoutX="-2.0" layoutY="591.0" stroke="#098013" strokeType="INSIDE" width="449.0" />
-      <TextField layoutX="14.0" layoutY="603.0" prefHeight="35.0" prefWidth="310.0" />
+      <TextField fx:id="typMsg" layoutX="14.0" layoutY="603.0" prefHeight="35.0" prefWidth="310.0" />
       <Text fill="WHITE" layoutX="182.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Server">
          <font>
             <Font name="Consolas Bold" size="25.0" />
          </font>
       </Text>
-      <JFXTextArea focusColor="#078314" layoutX="1.0" layoutY="141.0" prefHeight="189.0" prefWidth="206.0" unFocusColor="#088214" />
-      <JFXTextArea focusColor="#078314" layoutX="200.0" layoutY="347.0" prefHeight="189.0" prefWidth="233.0" unFocusColor="#088214" />
-      <JFXButton buttonType="RAISED" cache="true" cacheHint="SCALE" layoutX="372.0" layoutY="608.0" ripplerFill="#81fc8e" style="-fx-background-color: #81fc8e;" text="Send">
+      <JFXTextArea fx:id="clientMsg" focusColor="#078314" layoutX="1.0" layoutY="141.0" prefHeight="189.0" prefWidth="206.0" unFocusColor="#088214" />
+      <JFXTextArea fx:id="viewSeverMsg" focusColor="#078314" layoutX="200.0" layoutY="347.0" prefHeight="189.0" prefWidth="233.0" unFocusColor="#088214" />
+      <JFXButton fx:id="send" buttonType="RAISED" cache="true" cacheHint="SCALE" layoutX="372.0" layoutY="608.0" onAction="#sendOnAction" ripplerFill="#81fc8e" style="-fx-background-color: #81fc8e;" text="Send">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
