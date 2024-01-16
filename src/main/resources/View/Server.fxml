@@ -6,10 +6,10 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="643.0" prefWidth="418.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.Server">
+<AnchorPane prefHeight="652.0" prefWidth="418.0" style="-fx-background-radius: 50;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.Server">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="45.0" stroke="BLACK" strokeType="INSIDE" width="418.0" />
-      <Label layoutX="7.0" layoutY="5.0" text="Server">
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#078314" height="45.0" layoutX="13.0" stroke="#078314" strokeType="INSIDE" width="393.0" />
+      <Label layoutX="165.0" layoutY="3.0" text="Server" textFill="WHITE">
          <font>
             <Font name="System Bold" size="25.0" />
          </font>
