@@ -13,6 +13,8 @@ public class Client {
     public JFXButton send;
     public AnchorPane root;
 
+
+
     public void sendOnAction(ActionEvent actionEvent) {
 
     }
