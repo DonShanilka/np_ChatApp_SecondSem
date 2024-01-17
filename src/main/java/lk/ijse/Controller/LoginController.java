@@ -7,4 +7,5 @@ public class LoginController {
 
     public JFXButton loginOnAction;
     public TextField txtPaassword;
+    public TextField txtUsrName;
 }
