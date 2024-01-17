@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="lk.ijse.Controller.Client"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane fx:id="root" prefHeight="652.0" prefWidth="443.0" style="-fx-background-radius: 50;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.Client">
+   <children>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="#078314" height="45.0" layoutX="59.0" layoutY="-1.0" stroke="#078314" strokeType="INSIDE" width="325.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#078314" height="61.0" layoutX="-2.0" layoutY="591.0" stroke="#098013" strokeType="INSIDE" width="449.0" />
+      <TextField fx:id="typMsg" layoutX="14.0" layoutY="603.0" prefHeight="35.0" prefWidth="310.0" />
+      <Text fill="WHITE" layoutX="182.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Client">
+         <font>
+            <Font name="Consolas Bold" size="25.0" />
+         </font>
+      </Text>
+      <JFXTextArea fx:id="serverMsg" focusColor="#078314" layoutX="1.0" layoutY="141.0" prefHeight="189.0" prefWidth="206.0" unFocusColor="#088214" />
+      <JFXTextArea fx:id="viewClientMsg" focusColor="#078314" layoutX="200.0" layoutY="347.0" prefHeight="189.0" prefWidth="233.0" unFocusColor="#088214" />
+      <JFXButton fx:id="send" buttonType="RAISED" cache="true" cacheHint="SCALE" layoutX="372.0" layoutY="608.0" onAction="#sendOnAction" ripplerFill="#81fc8e" style="-fx-background-color: #81fc8e;" text="Send">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+   </children>
 </AnchorPane>
