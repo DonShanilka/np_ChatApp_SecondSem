@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989edc73-50dd-467f-832f-4ba70b1c48a5" name="Changes" comment="Client">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/View/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Client.java" afterDir="false" />
+    <list default="true" id="989edc73-50dd-467f-832f-4ba70b1c48a5" name="Changes" comment="Login">
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/ServerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/View/Client.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/View/Client.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/View/Server.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/View/Server.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,11 @@
     "onboarding.tips.debug.path": "C:/Users/Shanilka/IdeaProjects/np_ChatApp_SecondSem/src/main/java/lk/ijse/Main.java",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -70,7 +75,7 @@
       <workItem from="1705419606812" duration="20000" />
       <workItem from="1705419697631" duration="41000" />
       <workItem from="1705420806751" duration="51000" />
-      <workItem from="1705507794334" duration="4064000" />
+      <workItem from="1705507794334" duration="5433000" />
     </task>
     <task id="LOCAL-00001" summary="Server">
       <option name="closed" value="true" />
@@ -160,7 +165,39 @@
       <option name="project" value="LOCAL" />
       <updated>1705510815573</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Login">
+      <option name="closed" value="true" />
+      <created>1705514761658</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705514761658</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Login">
+      <option name="closed" value="true" />
+      <created>1705514804272</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705514804272</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Login">
+      <option name="closed" value="true" />
+      <created>1705514908741</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1705514908741</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Login">
+      <option name="closed" value="true" />
+      <created>1705514932681</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1705514932681</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +207,7 @@
     <MESSAGE value="Server" />
     <MESSAGE value="ServerController" />
     <MESSAGE value="Client" />
-    <option name="LAST_COMMIT_MESSAGE" value="Client" />
+    <MESSAGE value="Login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login" />
   </component>
 </project>

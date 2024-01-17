@@ -5,7 +5,7 @@ import com.jfoenix.controls.JFXTextArea;
 import javafx.event.ActionEvent;
 import javafx.scene.layout.AnchorPane;
 
-public class Client {
+public class ClientController {
 
 
     public JFXTextArea serverMsg;
