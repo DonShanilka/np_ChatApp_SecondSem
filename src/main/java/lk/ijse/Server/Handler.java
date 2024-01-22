@@ -1,4 +1,4 @@
-package lk.ijse.Server.Handl;
+package lk.ijse.Server;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,13 +8,12 @@ import java.net.Socket;
 import java.util.ArrayList;
 
 public class Handler extends Thread{
-
-    private ArrayList<java.util.logging.Handler> client;
+    private ArrayList<Handler> client;
     private Socket socket;
     private BufferedReader reader;
     private PrintWriter writer;
 
-    public Handler(Socket socket, ArrayList<java.util.logging.Handler>client) {
+    public Handler(Socket socket, ArrayList<Handler>client) {
         try {
             this.socket = socket;
             this.client = client;
@@ -33,7 +32,7 @@ public class Handler extends Thread{
                 if (msg.equalsIgnoreCase("exit")) {
                     break;
                 }
-                for (java.util.logging.Handler handler : client) {
+                for (Handler handler : client) {
                     writer.println(msg);
                 }
             }
@@ -49,5 +48,4 @@ public class Handler extends Thread{
             }
         }
     }
-
 }

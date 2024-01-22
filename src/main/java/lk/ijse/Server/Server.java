@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
-import java.util.logging.Handler;
-import lk.ijse.Server.Handler.Handler;
 
 public class Server {
     private static ArrayList<Handler> clients = new ArrayList<>();
