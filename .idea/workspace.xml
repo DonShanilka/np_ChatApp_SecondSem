@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="989edc73-50dd-467f-832f-4ba70b1c48a5" name="Changes" comment="Fxml">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/MsgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/MsgController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/db/DbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/db/DbConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <workItem from="1705507794334" duration="5690000" />
       <workItem from="1705668878199" duration="189000" />
       <workItem from="1705911600520" duration="37000" />
-      <workItem from="1705943706596" duration="883000" />
+      <workItem from="1705943706596" duration="1188000" />
     </task>
     <task id="LOCAL-00001" summary="Server">
       <option name="closed" value="true" />
@@ -221,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705944457445</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Fxml">
+      <option name="closed" value="true" />
+      <created>1705944802898</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1705944802898</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
