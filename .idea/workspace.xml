@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989edc73-50dd-467f-832f-4ba70b1c48a5" name="Changes" comment="Handler">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Dto/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Model/MsgModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Model/MsgModel.java" afterDir="false" />
+    <list default="true" id="989edc73-50dd-467f-832f-4ba70b1c48a5" name="Changes" comment="regModel">
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Model/UserModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +58,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shanilka\IdeaProjects\np_ChatApp_SecondSem\src\main\java\lk\ijse\Server" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,7 +80,7 @@
       <workItem from="1705507794334" duration="5690000" />
       <workItem from="1705668878199" duration="189000" />
       <workItem from="1705911600520" duration="37000" />
-      <workItem from="1705943706596" duration="2748000" />
+      <workItem from="1705943706596" duration="3182000" />
     </task>
     <task id="LOCAL-00001" summary="Server">
       <option name="closed" value="true" />
@@ -262,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705946367743</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="regModel">
+      <option name="closed" value="true" />
+      <created>1705946785273</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1705946785273</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +291,7 @@
     <MESSAGE value="dto,model" />
     <MESSAGE value="dependency" />
     <MESSAGE value="Handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handler" />
+    <MESSAGE value="regModel" />
+    <option name="LAST_COMMIT_MESSAGE" value="regModel" />
   </component>
 </project>
