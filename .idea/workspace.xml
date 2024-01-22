@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989edc73-50dd-467f-832f-4ba70b1c48a5" name="Changes" comment="dependency" />
+    <list default="true" id="989edc73-50dd-467f-832f-4ba70b1c48a5" name="Changes" comment="Handler">
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Dto/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Model/MsgModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Model/MsgModel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +43,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Shanilka/IdeaProjects/Chat-App_Sithira",
+    "last_opened_file_path": "C:/Users/Shanilka/IdeaProjects/np_ChatApp_SecondSem/src/main/java/lk/ijse/Server",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,7 +76,7 @@
       <workItem from="1705507794334" duration="5690000" />
       <workItem from="1705668878199" duration="189000" />
       <workItem from="1705911600520" duration="37000" />
-      <workItem from="1705943706596" duration="2293000" />
+      <workItem from="1705943706596" duration="2748000" />
     </task>
     <task id="LOCAL-00001" summary="Server">
       <option name="closed" value="true" />
@@ -251,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705945968965</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Handler">
+      <option name="closed" value="true" />
+      <created>1705946367742</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1705946367743</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +278,7 @@
     <MESSAGE value="DbConnection" />
     <MESSAGE value="dto,model" />
     <MESSAGE value="dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="dependency" />
+    <MESSAGE value="Handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handler" />
   </component>
 </project>
