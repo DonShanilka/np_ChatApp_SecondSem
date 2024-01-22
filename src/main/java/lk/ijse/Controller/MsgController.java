@@ -6,7 +6,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.layout.AnchorPane;
 
-public class ServerController {
+public class MsgController {
 
     @FXML
     public JFXTextArea clientMsg;
