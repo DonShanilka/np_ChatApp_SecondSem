@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="989edc73-50dd-467f-832f-4ba70b1c48a5" name="Changes" comment="Msgcontroller">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/MessageFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/View/message.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/image/smile.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/MsgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/MsgController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/View/msg.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/View/msg.fxml" afterDir="false" />
     </list>
@@ -67,11 +63,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shanilka\IdeaProjects\np_ChatApp_SecondSem\src\main\resources\View" />
       <recent name="C:\Users\Shanilka\IdeaProjects\np_ChatApp_SecondSem\src\main\java\lk\ijse" />
       <recent name="C:\Users\Shanilka\IdeaProjects\np_ChatApp_SecondSem\src\main\java\lk\ijse\Server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Shanilka\IdeaProjects\np_ChatApp_SecondSem\src\main\resources\image" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lk.ijse.Controller" />
     </key>
   </component>
   <component name="RunManager">
@@ -101,7 +101,7 @@
       <workItem from="1705668878199" duration="189000" />
       <workItem from="1705911600520" duration="37000" />
       <workItem from="1705943706596" duration="4127000" />
-      <workItem from="1705994139864" duration="2474000" />
+      <workItem from="1705994139864" duration="3683000" />
     </task>
     <task id="LOCAL-00001" summary="Server">
       <option name="closed" value="true" />
@@ -311,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705947827915</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Msgcontroller">
+      <option name="closed" value="true" />
+      <created>1705996712019</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1705996712019</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

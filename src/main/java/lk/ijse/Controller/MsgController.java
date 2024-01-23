@@ -7,6 +7,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
@@ -32,34 +33,10 @@ public class MsgController extends Thread implements Initializable {
     public AnchorPane root;
     public ScrollPane scrollPane;
     public VBox msgVbox;
-    public GridPane emojiGridPane;
-    public AnchorPane emojiAnchorPane;
+    public AnchorPane emojiPane;
 
     @FXML
     private TextField txtMsg;
-
-
-    private final String[] emojis = {"\uD83D\uDE00", // 😀
-            "\uD83D\uDE01", // 😁
-            "\uD83D\uDE02", // 😂
-            "\uD83D\uDE03", // 🤣
-            "\uD83D\uDE04", // 😄
-            "\uD83D\uDE05", // 😅
-            "\uD83D\uDE06", // 😆
-            "\uD83D\uDE07", // 😇
-            "\uD83D\uDE08", // 😈
-            "\uD83D\uDE09", // 😉
-            "\uD83D\uDE0A", // 😊
-            "\uD83D\uDE0B", // 😋
-            "\uD83D\uDE0C", // 😌
-            "\uD83D\uDE0D", // 😍
-            "\uD83D\uDE0E", // 😎
-            "\uD83D\uDE0F", // 😏
-            "\uD83D\uDE10", // 😐
-            "\uD83D\uDE11", // 😑
-            "\uD83D\uDE12", // 😒
-            "\uD83D\uDE13"  // 😓
-    };
 
 
     Socket socket;
@@ -70,20 +47,6 @@ public class MsgController extends Thread implements Initializable {
         /*String name = LoginController.user;
         lblName.setText(name);*/
 
-        emojiAnchorPane.setVisible(false);
-        int buttonIndex = 0;
-        for (int row = 0; row < 4; row++) {
-            for (int column = 0; column < 4; column++) {
-                if (buttonIndex < emojis.length) {
-                    String emoji = emojis[buttonIndex];
-                    JFXButton emojiButton = createEmojiButton(emoji);
-                    emojiGridPane.add(emojiButton, column, row);
-                    buttonIndex++;
-                } else {
-                    break;
-                }
-            }
-        }
 
         try {
             socket = new Socket("localhost",3000);
@@ -109,20 +72,68 @@ public class MsgController extends Thread implements Initializable {
         }
     }
 
-    public void emojiButtonAction(ActionEvent event) {
-        JFXButton button = (JFXButton) event.getSource();
-        txtMsg.appendText(button.getText());
+    @FXML
+    void emoji_on_action(MouseEvent event) {
+        emojiPane.setVisible(true);
     }
 
-    private JFXButton createEmojiButton(String emoji) {
-        JFXButton button = new JFXButton(emoji);
-        button.getStyleClass().add("emoji-button");
-        button.setOnAction(this::emojiButtonAction);
-        button.setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
-        GridPane.setFillWidth(button, true);
-        GridPane.setFillHeight(button, true);
-        button.setStyle("-fx-font-size: 15; -fx-text-fill: black; -fx-background-color: #F0F0F0; -fx-border-radius: 50" );
-        return button;
+    @FXML
+    void emoji1(MouseEvent mouseEvent) {
+
+    }
+
+    @FXML
+    void emoji10(MouseEvent event) {
+    }
+
+    @FXML
+    void emoji11(MouseEvent event) {
+
+    }
+
+    @FXML
+    void emoji12(MouseEvent event) {
+
+    }
+
+    @FXML
+    void emoji2(MouseEvent event) {
+
+    }
+
+    @FXML
+    void emoji3(MouseEvent event) {
+
+    }
+
+    @FXML
+    void emoji4(MouseEvent event) {
+
+    }
+
+    @FXML
+    void emoji5(MouseEvent event) {
+
+    }
+
+    @FXML
+    void emoji6(MouseEvent event) {
+
+    }
+
+    @FXML
+    void emoji7(MouseEvent event) {
+
+    }
+
+    @FXML
+    void emoji8(MouseEvent event) {
+
+    }
+
+    @FXML
+    void emoji9(MouseEvent event) {
+
     }
 
 }
