@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989edc73-50dd-467f-832f-4ba70b1c48a5" name="Changes" comment="Msgcontroller">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/MsgController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/MsgController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/View/msg.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/View/msg.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="989edc73-50dd-467f-832f-4ba70b1c48a5" name="Changes" comment="emoji" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +97,7 @@
       <workItem from="1705668878199" duration="189000" />
       <workItem from="1705911600520" duration="37000" />
       <workItem from="1705943706596" duration="4127000" />
-      <workItem from="1705994139864" duration="3683000" />
+      <workItem from="1705994139864" duration="3774000" />
     </task>
     <task id="LOCAL-00001" summary="Server">
       <option name="closed" value="true" />
@@ -319,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705996712019</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="emoji">
+      <option name="closed" value="true" />
+      <created>1705999124372</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1705999124372</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +343,7 @@
     <MESSAGE value="regModel" />
     <MESSAGE value="login" />
     <MESSAGE value="Msgcontroller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Msgcontroller" />
+    <MESSAGE value="emoji" />
+    <option name="LAST_COMMIT_MESSAGE" value="emoji" />
   </component>
 </project>

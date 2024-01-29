@@ -1,7 +1,6 @@
 package lk.ijse.Model;
 
 
-import lk.ijse.Dto.UserDto;
 import lk.ijse.db.DbConnection;
 
 import java.sql.Connection;
