@@ -9,25 +9,27 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
 
-<AnchorPane fx:id="root" prefHeight="608.0" prefWidth="367.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.ChatController">
+<AnchorPane fx:id="root" prefHeight="635.0" prefWidth="374.0" style="-fx-background-color: #ffccff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.ChatController">
    <children>
-      <ScrollPane layoutX="14.0" layoutY="44.0" prefHeight="489.0" prefWidth="346.0">
+      <ScrollPane layoutX="14.0" layoutY="65.0" prefHeight="489.0" prefWidth="346.0">
          <content>
-            <VBox fx:id="msgVbox" prefHeight="495.0" prefWidth="346.0" />
+            <VBox fx:id="msgVbox" prefHeight="474.0" prefWidth="346.0" style="-fx-background-color: #ffe6ff;" />
          </content>
       </ScrollPane>
-      <AnchorPane layoutY="534.0" prefHeight="74.0" prefWidth="374.0" style="-fx-background-color: #48b9ff;">
+      <AnchorPane layoutY="561.0" prefHeight="74.0" prefWidth="374.0" style="-fx-background-color: #4d004d;">
          <children>
-            <TextField fx:id="txtMsg" layoutX="14.0" layoutY="24.0" promptText="text" />
-            <ImageView fitHeight="32.0" fitWidth="54.0" layoutX="187.0" layoutY="21.0" onMouseClicked="#send_on_action" pickOnBounds="true" preserveRatio="true">
+            <TextField fx:id="txtMsg" layoutX="4.0" layoutY="24.0" prefHeight="25.0" prefWidth="199.0" promptText="Msg" style="-fx-background-color: #800080;" />
+            <ImageView fitHeight="32.0" fitWidth="54.0" layoutX="212.0" layoutY="21.0" onMouseClicked="#send_on_action" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Assets/sended.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="32.0" fitWidth="55.0" layoutX="241.0" layoutY="21.0" onMouseClicked="#image_on_action" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="32.0" fitWidth="55.0" layoutX="254.0" layoutY="21.0" onMouseClicked="#image_on_action" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Assets/cam.png" />
                </image>
@@ -41,6 +43,7 @@
                   </ImageView>
                </graphic>
             </JFXButton>
+            <Line endX="98.0" layoutX="105.0" layoutY="49.0" startX="-100.0" />
          </children>
       </AnchorPane>
       <AnchorPane fx:id="emojiPane" layoutX="160.0" layoutY="334.0" prefHeight="200.0" prefWidth="200.0">
@@ -61,5 +64,6 @@
          </children>
       </AnchorPane>
       <Label fx:id="lblName" layoutX="69.0" layoutY="14.0" textFill="RED" />
+      <Pane layoutX="14.0" layoutY="-26.0" prefHeight="74.0" prefWidth="346.0" style="-fx-background-color: #4d004d; -fx-background-radius: 30;" />
    </children>
 </AnchorPane>
