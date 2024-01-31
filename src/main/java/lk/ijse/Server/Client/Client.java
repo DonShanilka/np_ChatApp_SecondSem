@@ -1,8 +1,3 @@
-/* Created By Sithira Roneth
- * Date :1/29/24
- * Time :13:05
- * Project Name :Chat_Application
- * */
 package lk.ijse.Server.Client;
 
 import javafx.fxml.FXMLLoader;
