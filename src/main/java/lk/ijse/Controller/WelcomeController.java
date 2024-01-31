@@ -1,8 +1,3 @@
-/* Created By Sithira Roneth
- * Date :1/30/24
- * Time :10:26
- * Project Name :Chat_Application
- * */
 package lk.ijse.Controller;
 
 import javafx.event.ActionEvent;
