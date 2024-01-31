@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989edc73-50dd-467f-832f-4ba70b1c48a5" name="Changes" comment="Launcher" />
+    <list default="true" id="989edc73-50dd-467f-832f-4ba70b1c48a5" name="Changes" comment="Welcome" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,8 +68,8 @@
       <recent name="C:\Users\Shanilka\IdeaProjects\np_ChatApp_SecondSem\src\main\resources\image" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="lk.ijse.Server" />
       <recent name="lk.ijse.Controller" />
+      <recent name="lk.ijse.Server" />
     </key>
   </component>
   <component name="RunManager">
@@ -101,7 +101,7 @@
       <workItem from="1705943706596" duration="4127000" />
       <workItem from="1705994139864" duration="3774000" />
       <workItem from="1706539097617" duration="2100000" />
-      <workItem from="1706680220341" duration="2254000" />
+      <workItem from="1706680220341" duration="2787000" />
     </task>
     <task id="LOCAL-00001" summary="Server">
       <option name="closed" value="true" />
@@ -471,7 +471,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706682562416</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Welcome">
+      <option name="closed" value="true" />
+      <created>1706682667978</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1706682667978</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Welcome">
+      <option name="closed" value="true" />
+      <created>1706682728793</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1706682728793</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,6 +516,7 @@
     <MESSAGE value="Handler" />
     <MESSAGE value="cn" />
     <MESSAGE value="Launcher" />
-    <option name="LAST_COMMIT_MESSAGE" value="Launcher" />
+    <MESSAGE value="Welcome" />
+    <option name="LAST_COMMIT_MESSAGE" value="Welcome" />
   </component>
 </project>
