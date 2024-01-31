@@ -1,8 +1,4 @@
-/* Created By Sithira Roneth
- * Date :1/20/24
- * Time :14:20
- * Project Name :Chat_Application
- * */
+
 package lk.ijse.Server.Handler;
 
 import lk.ijse.Controller.ChatController;
