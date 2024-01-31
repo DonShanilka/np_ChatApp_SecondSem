@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989edc73-50dd-467f-832f-4ba70b1c48a5" name="Changes" comment="ServerController/Ui" />
+    <list default="true" id="989edc73-50dd-467f-832f-4ba70b1c48a5" name="Changes" comment="cn" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +41,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Shanilka/IdeaProjects/np_ChatApp_SecondSem/src/main/resources",
+    "last_opened_file_path": "C:/Users/Shanilka/IdeaProjects/np_ChatApp_SecondSem/src/main/java/lk/ijse/Server",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,10 +59,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shanilka\IdeaProjects\np_ChatApp_SecondSem\src\main\java\lk\ijse\Server" />
       <recent name="C:\Users\Shanilka\IdeaProjects\np_ChatApp_SecondSem\src\main\resources" />
       <recent name="C:\Users\Shanilka\IdeaProjects\np_ChatApp_SecondSem\src\main\resources\View" />
       <recent name="C:\Users\Shanilka\IdeaProjects\np_ChatApp_SecondSem\src\main\java\lk\ijse" />
-      <recent name="C:\Users\Shanilka\IdeaProjects\np_ChatApp_SecondSem\src\main\java\lk\ijse\Server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Shanilka\IdeaProjects\np_ChatApp_SecondSem\src\main\resources\image" />
@@ -101,7 +101,7 @@
       <workItem from="1705943706596" duration="4127000" />
       <workItem from="1705994139864" duration="3774000" />
       <workItem from="1706539097617" duration="2100000" />
-      <workItem from="1706680220341" duration="1015000" />
+      <workItem from="1706680220341" duration="1946000" />
     </task>
     <task id="LOCAL-00001" summary="Server">
       <option name="closed" value="true" />
@@ -423,7 +423,39 @@
       <option name="project" value="LOCAL" />
       <updated>1706681324048</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="ClientController">
+      <option name="closed" value="true" />
+      <created>1706681394184</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1706681394184</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Handler">
+      <option name="closed" value="true" />
+      <created>1706681456085</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1706681456085</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Handler">
+      <option name="closed" value="true" />
+      <created>1706681740507</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1706681740507</updated>
+    </task>
+    <task id="LOCAL-00044" summary="cn">
+      <option name="closed" value="true" />
+      <created>1706681794443</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1706681794443</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +471,6 @@
     <MESSAGE value="DbConnection" />
     <MESSAGE value="dto,model" />
     <MESSAGE value="dependency" />
-    <MESSAGE value="Handler" />
     <MESSAGE value="regModel" />
     <MESSAGE value="login" />
     <MESSAGE value="Msgcontroller" />
@@ -449,6 +480,9 @@
     <MESSAGE value="ui" />
     <MESSAGE value="ChatController" />
     <MESSAGE value="ServerController/Ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="ServerController/Ui" />
+    <MESSAGE value="ClientController" />
+    <MESSAGE value="Handler" />
+    <MESSAGE value="cn" />
+    <option name="LAST_COMMIT_MESSAGE" value="cn" />
   </component>
 </project>
