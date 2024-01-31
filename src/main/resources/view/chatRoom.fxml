@@ -13,6 +13,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane fx:id="root" prefHeight="635.0" prefWidth="374.0" style="-fx-background-color: #ffccff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.ChatController">
    <children>
@@ -64,6 +65,14 @@
          </children>
       </AnchorPane>
       <Label fx:id="lblName" layoutX="69.0" layoutY="14.0" textFill="RED" />
-      <Pane layoutX="14.0" layoutY="-26.0" prefHeight="74.0" prefWidth="346.0" style="-fx-background-color: #4d004d; -fx-background-radius: 30;" />
+      <Pane layoutX="14.0" layoutY="-26.0" prefHeight="74.0" prefWidth="346.0" style="-fx-background-color: #4d004d; -fx-background-radius: 30;">
+         <children>
+            <Label layoutX="99.0" layoutY="29.0" text="ChatRoom" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
    </children>
 </AnchorPane>
