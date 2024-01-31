@@ -4,14 +4,23 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="root" prefHeight="608.0" prefWidth="367.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.WelcomeController">
+<AnchorPane fx:id="root" prefHeight="608.0" prefWidth="367.0" style="-fx-background-color: ff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.WelcomeController">
    <children>
-      <JFXButton layoutX="114.0" layoutY="448.0" onAction="#btnSigninOnAction" prefHeight="26.0" prefWidth="138.0" style="-fx-background-color: blue;" text="Get Started" textFill="WHITE" />
-      <ImageView fitHeight="226.0" fitWidth="266.0" layoutX="64.0" layoutY="92.0" pickOnBounds="true">
-         <image>
-            <Image url="@../Assets/remove.png" />
-         </image>
-      </ImageView>
+      <JFXButton layoutX="103.0" layoutY="522.0" onAction="#btnSigninOnAction" prefHeight="36.0" prefWidth="161.0" style="-fx-background-color: #4d004d;" text="Started" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></JFXButton>
+      <Pane layoutY="-88.0" prefHeight="497.0" prefWidth="367.0" style="-fx-background-color: #330033; -fx-background-radius: 70;">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="84.0" layoutY="173.0">
+               <image>
+                  <Image url="@../Assets/communication.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
    </children>
 </AnchorPane>
