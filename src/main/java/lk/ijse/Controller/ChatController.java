@@ -81,7 +81,7 @@ public class ChatController implements Initializable {
     private JFXButton createEmojiButton(String emoji) {
         JFXButton button = new JFXButton(emoji);
         button.getStyleClass().add("emoji-button");
-        button.setOnAction(this::emoji_on_action);
+        button.setOnAction(this::emojiButtonAction);
         button.setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
         GridPane.setFillWidth(button, true);
         GridPane.setFillHeight(button, true);
@@ -89,11 +89,16 @@ public class ChatController implements Initializable {
         return button;
     }
 
+    private void emojiButtonAction(ActionEvent actionEvent) {
+        JFXButton button = (JFXButton) actionEvent.getSource();
+        txtMsg.appendText(button.getText());
+    }
 
 
     @FXML
     public void emoji_on_action(ActionEvent actionEvent) {
         emojiPane.setVisible(!emojiPane.isVisible());
+
     }
 
     @FXML

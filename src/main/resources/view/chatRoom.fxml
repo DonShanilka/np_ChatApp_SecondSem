@@ -27,7 +27,7 @@
             <TextField fx:id="txtMsg" layoutX="4.0" layoutY="24.0" prefHeight="25.0" prefWidth="199.0" promptText="Msg" style="-fx-background-color: #800080;" />
             <ImageView fitHeight="32.0" fitWidth="54.0" layoutX="212.0" layoutY="21.0" onMouseClicked="#send_on_action" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Assets/sended.png" />
+                  <Image url="@../Assets/send.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="32.0" fitWidth="55.0" layoutX="254.0" layoutY="21.0" onMouseClicked="#image_on_action" pickOnBounds="true" preserveRatio="true">
@@ -39,7 +39,7 @@
                <graphic>
                   <ImageView fitHeight="32.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../Assets/emoji_pane.png" />
+                        <Image url="@../Assets/emoji.png" />
                      </image>
                   </ImageView>
                </graphic>
