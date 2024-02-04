@@ -9,6 +9,7 @@ import java.net.Socket;
 public class Server implements Runnable{
     private static Server server;
     private final ServerSocket serverSocket;
+
     private Server() throws IOException {
         serverSocket = new ServerSocket(3200);
         System.out.println("Server Started");
