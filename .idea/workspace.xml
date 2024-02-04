@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989edc73-50dd-467f-832f-4ba70b1c48a5" name="Changes" comment="All don">
+    <list default="true" id="989edc73-50dd-467f-832f-4ba70b1c48a5" name="Changes" comment="delete unUse Code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,15 +115,7 @@
       <workItem from="1706852930388" duration="93000" />
       <workItem from="1706861968393" duration="1677000" />
       <workItem from="1706930385852" duration="83000" />
-      <workItem from="1707066252186" duration="1030000" />
-    </task>
-    <task id="LOCAL-00010" summary="ServerController">
-      <option name="closed" value="true" />
-      <created>1705508513715</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1705508513715</updated>
+      <workItem from="1707066252186" duration="1946000" />
     </task>
     <task id="LOCAL-00011" summary="Client">
       <option name="closed" value="true" />
@@ -509,14 +501,21 @@
       <option name="project" value="LOCAL" />
       <updated>1707066342217</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="delete unUse Code">
+      <option name="closed" value="true" />
+      <created>1707067692996</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1707067692996</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ServerController" />
     <MESSAGE value="Client" />
     <MESSAGE value="DataBAse" />
     <MESSAGE value="Fxml" />
@@ -541,6 +540,7 @@
     <MESSAGE value="chatRoom / Ui" />
     <MESSAGE value="Don" />
     <MESSAGE value="All don" />
-    <option name="LAST_COMMIT_MESSAGE" value="All don" />
+    <MESSAGE value="delete unUse Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete unUse Code" />
   </component>
 </project>
