@@ -57,11 +57,6 @@ public class Handler implements Runnable {
         outputStream.flush();
     }
 
-    private void sendMessage(String sender, String msg) throws IOException {
-        outputStream.writeUTF(sender + ": " + msg);
-        outputStream.flush();
-    }
-
 
     private void receiveImage() throws IOException {
         int size = inputStream.readInt();
