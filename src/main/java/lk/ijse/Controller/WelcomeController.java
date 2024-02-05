@@ -33,12 +33,4 @@ public class WelcomeController {
 
     }
 
-    public void btnSignupOnAction(ActionEvent actionEvent) throws IOException {
-        root.getChildren().clear();
-        Stage stage = (Stage) root.getScene().getWindow();
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/register.fxml"))));
-        stage.setTitle("Sign Up Form");
-        stage.show();
-
-    }
 }

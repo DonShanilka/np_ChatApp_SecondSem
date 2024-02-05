@@ -9,22 +9,22 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="root" prefHeight="608.0" prefWidth="367.0" style="-fx-background-color: fff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.LoginController">
+<AnchorPane fx:id="root" prefHeight="576.0" prefWidth="538.0" style="-fx-background-color: fff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.LoginController">
    <children>
-      <JFXButton layoutX="127.0" layoutY="527.0" onAction="#btnSigninOnAction" prefHeight="34.0" prefWidth="114.0" style="-fx-background-color: #4d004d;" text="Signin" textFill="WHITE">
+      <JFXButton layoutX="209.0" layoutY="508.0" onAction="#btnSigninOnAction" prefHeight="34.0" prefWidth="114.0" style="-fx-background-color: #00e600;" text="Signin" textFill="WHITE">
          <font>
             <Font name="System Bold" size="13.0" />
          </font></JFXButton>
-      <TextField fx:id="txtUser" layoutX="94.0" layoutY="449.0" prefHeight="34.0" prefWidth="180.0" promptText="User" style="-fx-background-color: ff;" />
-      <Pane layoutY="-75.0" prefHeight="497.0" prefWidth="367.0" style="-fx-background-color: #330033; -fx-background-radius: 70;">
+      <TextField fx:id="txtUser" layoutX="179.0" layoutY="445.0" prefHeight="34.0" prefWidth="180.0" promptText="User" style="-fx-background-color: ff;" />
+      <Pane layoutY="-75.0" prefHeight="497.0" prefWidth="538.0" style="-fx-background-color: #004d00; -fx-background-radius: 70;">
          <children>
-            <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="84.0" layoutY="173.0">
+            <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="169.0" layoutY="162.0">
                <image>
                   <Image url="@../Assets/communication.png" />
                </image>
             </ImageView>
          </children>
       </Pane>
-      <Line endX="72.0" layoutX="195.0" layoutY="484.0" startX="-100.0" />
+      <Line endX="72.0" layoutX="280.0" layoutY="480.0" startX="-100.0" stroke="#025102" />
    </children>
 </AnchorPane>

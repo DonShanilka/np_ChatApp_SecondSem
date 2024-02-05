@@ -7,15 +7,15 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="root" prefHeight="608.0" prefWidth="367.0" style="-fx-background-color: ff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.WelcomeController">
+<AnchorPane fx:id="root" prefHeight="608.0" prefWidth="568.0" style="-fx-background-color: ff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.WelcomeController">
    <children>
-      <JFXButton layoutX="103.0" layoutY="522.0" onAction="#btnSigninOnAction" prefHeight="36.0" prefWidth="161.0" style="-fx-background-color: #4d004d;" text="Started" textFill="WHITE">
+      <JFXButton layoutX="204.0" layoutY="506.0" onAction="#btnSigninOnAction" prefHeight="36.0" prefWidth="161.0" style="-fx-background-color: #00e600;" text="Started" textFill="WHITE">
          <font>
             <Font name="System Bold" size="14.0" />
          </font></JFXButton>
-      <Pane layoutY="-88.0" prefHeight="497.0" prefWidth="367.0" style="-fx-background-color: #330033; -fx-background-radius: 70;">
+      <Pane layoutY="-88.0" prefHeight="497.0" prefWidth="568.0" style="-fx-background-color: #004d00; -fx-background-radius: 70;">
          <children>
-            <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="84.0" layoutY="173.0">
+            <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="184.0" layoutY="168.0">
                <image>
                   <Image url="@../Assets/communication.png" />
                </image>

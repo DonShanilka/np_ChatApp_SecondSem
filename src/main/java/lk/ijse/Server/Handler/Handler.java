@@ -27,7 +27,7 @@ public class Handler implements Runnable {
 
     @Override
     public void run() {
-        l1: while (socket.isConnected()) {
+         while (socket.isConnected()) {
             try {
                 String message = inputStream.readUTF();
                 if (message.equals("image")) {

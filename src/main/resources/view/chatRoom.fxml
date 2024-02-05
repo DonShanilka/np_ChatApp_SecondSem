@@ -15,16 +15,16 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="root" prefHeight="635.0" prefWidth="374.0" style="-fx-background-color: #ffccff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.ChatController">
+<AnchorPane fx:id="root" prefHeight="635.0" prefWidth="373.0" style="-fx-background-color: #ccffcc;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.ChatController">
    <children>
       <ScrollPane layoutX="14.0" layoutY="65.0" prefHeight="489.0" prefWidth="346.0">
          <content>
             <VBox fx:id="msgVbox" prefHeight="474.0" prefWidth="346.0" style="-fx-background-color: #ffe6ff;" />
          </content>
       </ScrollPane>
-      <AnchorPane layoutY="561.0" prefHeight="74.0" prefWidth="374.0" style="-fx-background-color: #4d004d;">
+      <AnchorPane layoutY="561.0" prefHeight="74.0" prefWidth="374.0" style="-fx-background-color: #025102;">
          <children>
-            <TextField fx:id="txtMsg" layoutX="4.0" layoutY="24.0" prefHeight="25.0" prefWidth="199.0" promptText="Msg" style="-fx-background-color: #800080;" />
+            <TextField fx:id="txtMsg" layoutX="4.0" layoutY="24.0" prefHeight="25.0" prefWidth="199.0" promptText="Msg" style="-fx-background-color: #025102;" />
             <ImageView fitHeight="32.0" fitWidth="54.0" layoutX="212.0" layoutY="21.0" onMouseClicked="#send_on_action" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Assets/send.png" />
@@ -44,7 +44,7 @@
                   </ImageView>
                </graphic>
             </JFXButton>
-            <Line endX="98.0" layoutX="105.0" layoutY="49.0" startX="-100.0" />
+            <Line endX="98.0" layoutX="105.0" layoutY="49.0" startX="-100.0" stroke="#00ff09" />
          </children>
       </AnchorPane>
       <AnchorPane fx:id="emojiPane" layoutX="160.0" layoutY="334.0" prefHeight="200.0" prefWidth="200.0">
@@ -65,7 +65,7 @@
          </children>
       </AnchorPane>
       <Label fx:id="lblName" layoutX="69.0" layoutY="14.0" textFill="RED" />
-      <Pane layoutX="14.0" layoutY="-26.0" prefHeight="74.0" prefWidth="346.0" style="-fx-background-color: #4d004d; -fx-background-radius: 30;">
+      <Pane layoutX="14.0" layoutY="-26.0" prefHeight="74.0" prefWidth="346.0" style="-fx-background-color: #025102; -fx-background-radius: 30;">
          <children>
             <Label layoutX="99.0" layoutY="29.0" text="ChatRoom" textFill="WHITE">
                <font>
